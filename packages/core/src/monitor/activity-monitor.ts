@@ -49,8 +49,8 @@ export class ActivityMonitor extends EventEmitter {
       level: process.env.NODE_ENV === 'development' ? 'debug' : 'info',
     });
 
-    // Initialize adapter synchronously using require for CommonJS compatibility
-    this.initializeAdapterSync();
+    // Initialize adapter asynchronously using dynamic imports
+    this.initializeAdapter();
   }
 
   /**
