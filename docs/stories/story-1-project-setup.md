@@ -49,7 +49,7 @@ Nguồn: Epic 1 – PRD shard `06-epic1-stories.md`
 Auto (Claude Sonnet 4.5)
 
 ### Status
-Done - All acceptance criteria met, user verification passed. **IMPORTANT: COMMIT CHANGES BEFORE PROCEEDING!**
+Done - All acceptance criteria met, user verification passed, changes committed and pushed to remote.
 
 ### File List
 
@@ -124,6 +124,7 @@ Done - All acceptance criteria met, user verification passed. **IMPORTANT: COMMI
 | 2024-12-XX | Initial implementation - monorepo scaffold, Electron setup, packages structure | Dev Agent |
 | 2024-12-XX | Fixed Electron installation - enabled pnpm postinstall scripts, verified app runs | Dev Agent |
 | 2024-12-XX | User verification passed - story marked as Done | Dev Agent |
+| 2024-12-XX | Changes committed and pushed to remote (https://github.com/Theasker02/BMAD-Alarm.git) | Dev Agent |
 
 ---
 

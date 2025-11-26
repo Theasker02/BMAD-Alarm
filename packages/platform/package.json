@@ -7,15 +7,20 @@
   "type": "module",
   "scripts": {
     "lint": "eslint . --ext ts --report-unused-disable-directives --max-warnings 0",
-    "test": "vitest"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
     "eslint": "^8.57.0",
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
     "typescript": "^5.5.3",
     "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "pino": "^10.1.0"
   }
 }
-
