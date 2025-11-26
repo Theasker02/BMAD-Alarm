@@ -15,6 +15,9 @@
     "eslint": "^8.57.0",
     "typescript": "^5.5.3",
     "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@bao-thuc/platform": "workspace:^",
+    "pino": "^10.1.0"
   }
 }
-
