@@ -1,0 +1,29 @@
+{
+  "name": "bao-thuc",
+  "version": "0.1.0",
+  "description": "Báo thức - Automatic break reminder desktop application",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter desktop dev",
+    "build": "pnpm --filter desktop build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "health",
+    "break-reminder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
+
